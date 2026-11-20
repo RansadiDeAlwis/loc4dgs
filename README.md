@@ -34,7 +34,7 @@ To the best of our knowledge, this is the first particle filter that localizes a
 
 ## How it works
 
-<p align="center"><img src="results/figures/F1_pipeline.png" width="95%" alt="One step of the particle filter"></p>
+<p align="center"><img src="results/figures/loc4dgs_pipeline.png" width="95%" alt="One step of the particle filter"></p>
 
 Every time an image arrives, the filter runs one step:
 
