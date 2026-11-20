@@ -1,0 +1,14 @@
+# PyTorch with CUDA: install first from https://pytorch.org for your CUDA version, e.g.
+#   pip install torch==2.4.1 torchvision==0.19.1 --index-url https://download.pytorch.org/whl/cu121
+# gsplat prebuilt wheel matching torch 2.4 + cu121 (avoids JIT compilation):
+#   pip install gsplat --index-url https://docs.gsplat.studio/whl/pt24cu121
+numpy
+scipy
+matplotlib
+imageio
+imageio-ffmpeg
+opencv-python
+tqdm
+pandas
+tabulate
+pytest

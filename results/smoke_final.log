@@ -1,0 +1,12 @@
+scene juggle, test cam 0, t=0, real photo, 160x90, backend gsplat
+[1 truth]    final error 2.77e-07 units, 0.00e+00 deg  -> PASS
+[2 winner]   true particle: error 0.049 (others: min 0.268, median 0.666), rank 0, weight 95.6% (uniform = 0.33%) -> PASS
+[3 converge] step :           0            5           10           20           30           40           60           79
+             error: 0.184/ 2.0deg  0.083/ 0.7deg  0.069/ 1.2deg  0.027/ 0.4deg  0.031/ 0.2deg  0.018/ 0.1deg  0.017/ 0.2deg  0.019/ 0.1deg
+             start 0.184 units / 2.0 deg; inside the success threshold (0.05 units, 5.0 deg) from step 16 -> PASS
+[4 timing]   ms per update: PF N=300 59.7 | N=600 122.0 | N=200 39.7 | EKF 5.5 | IEKF 25.6   (backend gsplat, 160x90, RENDER_CHUNK=512)
+             rough budget per scene: E1 0.2 h | E2 0.0 h | E3 0.5 h  -> 3 scenes ~ 2.2 h
+             (E1: 20 images x 3 levels x 3 seeds, PF+EKF+IEKF; E2: 2 traj x 5 seeds, PF+EKF; E3: 5 maps, reloc 3 seeds + track 2 traj x 5 seeds; excludes observation rendering and I/O)
+all checks passed
+FAILED tests/test_filter.py::test_local_relocalization_converges - AssertionE...
+1 failed, 15 passed in 1.68s
