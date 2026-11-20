@@ -10,7 +10,9 @@ results/vis/
 results/backup_before_ekf_tuning/
 results/landscape_*.npz
 
-# Report: keep main.tex, references.bib, figures/ and the compiled main.pdf;
+# Report: publish ONLY the compiled PDF (the LaTeX source, bibliography and figure copies stay private)
+report/*
+!report/main.pdf
 # drop LaTeX build files, the Overleaf sync settings and the local backup copy
 report/.localleaf/
 report/*.aux

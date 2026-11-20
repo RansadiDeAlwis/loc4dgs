@@ -196,7 +196,7 @@ Every run writes one CSV row per filter step to `results/`, and `plots.py` build
 | [`config.py`](config.py) | All parameters, **frozen after tuning on juggle** |
 | [`sanity_check.py`](sanity_check.py) · [`smoke_test.py`](smoke_test.py) · [`tests/`](tests) | Go / no-go checks and unit tests |
 | [`results/`](results) | CSVs, `figures/`, `tables/`, `gifs/` |
-| [`report/`](report) | Full report (LaTeX source and [PDF](report/main.pdf)) |
+| [`report/main.pdf`](report/main.pdf) | Full report (PDF) |
 
 <details>
 <summary><b>Conventions and design decisions</b></summary>
