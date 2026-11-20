@@ -6,7 +6,7 @@
 
 *Where is the camera, and which way is it pointing? This project answers that from a single image, in a scene full of moving people.*
 
-[**Report (PDF)**](report/main.pdf) · [**Results**](#results) · [**How it works**](#how-it-works) · [**Reproduce**](#reproduce-everything)
+[**Report (PDF)**](report/autonomous_mini_project_report.pdf) · [**Results**](#results) · [**How it works**](#how-it-works) · [**Reproduce**](#reproduce-everything)
 
 <img src="results/gifs/reloc_E1_basketball_img0_0.1u_5deg_s0_full0_N600_lam20_nf0.3.gif" width="90%" alt="Particle filter relocalizing a camera in the basketball scene">
 
